@@ -431,6 +431,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 703603699}
+        m_TargetAssemblyTypeName: setGlobalDifficulty, Assembly-CSharp
+        m_MethodName: EasyGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &66388949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3042,6 +3054,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 703603698}
+  - component: {fileID: 703603700}
+  - component: {fileID: 703603699}
   m_Layer: 5
   m_Name: Menu_difficulty
   m_TagString: Untagged
@@ -3072,6 +3086,34 @@ RectTransform:
   m_AnchoredPosition: {x: -1.0000105, y: 0.00089009595}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &703603699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703603697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7917fe24d1f155a41a6bb5f963d8a7f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &703603700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703603697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ffa4007ea6b5a4f845b42405f8ef4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  box_easy: {fileID: 544661271}
+  box_normal: {fileID: 1613363253}
+  box_hard: {fileID: 1093934374}
+  difficulty: 0
 --- !u!1 &716103314
 GameObject:
   m_ObjectHideFlags: 0
@@ -3798,6 +3840,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 703603699}
+        m_TargetAssemblyTypeName: setGlobalDifficulty, Assembly-CSharp
+        m_MethodName: NormalGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5051,6 +5105,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 703603699}
+        m_TargetAssemblyTypeName: setGlobalDifficulty, Assembly-CSharp
+        m_MethodName: HardGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1260457742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6257,6 +6323,7 @@ GameObject:
   - component: {fileID: 1720380338}
   - component: {fileID: 1720380337}
   - component: {fileID: 1720380336}
+  - component: {fileID: 1720380340}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -6341,6 +6408,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1720380340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720380335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c77f1358389efa942abc29fdc80bf75d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  difficulty: 0
 --- !u!1 &1734763383
 GameObject:
   m_ObjectHideFlags: 0
