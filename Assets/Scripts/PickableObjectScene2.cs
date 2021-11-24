@@ -80,7 +80,7 @@ void Update()
             beingcarried = false;
 
         
-        if(beingcarried)
+       /* if(beingcarried)
         {
             detectZone = false;
             GetComponent<Rigidbody>().isKinematic = true;
@@ -94,7 +94,7 @@ void Update()
             detectZone = true;
             GetComponent<Rigidbody>().isKinematic = false;
             rightRenderer.SetActive(true);
-        }
+        }*/
         if(onSnapZone)
         {
             this.GetComponent<Transform>().position = drop_pos;
