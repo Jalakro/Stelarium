@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 public class LevelManager : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -11,6 +13,7 @@ public class LevelManager : MonoBehaviour
     public int[] probaPiece = new int[14];
     void Start()
     {
+        selectLevel = (int)PlayerPrefs.GetFloat("Sauv_Difficulty");
         pieces = GameObject.FindGameObjectsWithTag("dropzone");
         for (int i = 0; i < 14; i++)
             probaPiece[i] = Random.Range(0, 100);
@@ -42,6 +45,7 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
        /* if(Input.GetKeyDown(KeyCode.Space))
         {
             for (int i = 0; i < 14; i++)
@@ -68,6 +72,6 @@ public class LevelManager : MonoBehaviour
             }
         }*/
 
-       
+
     }
 }

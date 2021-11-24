@@ -11,6 +11,8 @@ public class PuzzleManager : MonoBehaviour
     public GameObject[] objectConstellation = new GameObject[26];
     // Start is called before the first frame update
     public GameObject meteors;
+    public GameObject fireWorks;
+
     void Start()
     {
         for (int i = 0; i < numberOfConstellationsPuzzle; i++)
@@ -38,6 +40,18 @@ public class PuzzleManager : MonoBehaviour
         }
         else
             meteors.SetActive(false);
+
+        bool victory = true;
+        for (int i = 0; i < 16; i++)
+        {
+            if(isConstellationEnable[i] == 0)
+                victory = false;
+        }
+        if (victory)
+            fireWorks.SetActive(true);
+        else
+            fireWorks.SetActive(false);
+
         for (int i = 0; i < numberOfConstellationsPuzzle; i++)
         {
             if (isConstellationEnable[i] == 0)
