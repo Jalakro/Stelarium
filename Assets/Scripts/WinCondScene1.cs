@@ -8,8 +8,8 @@ public class WinCondScene1 : MonoBehaviour
 {
     private short count_filled = 0; // compteur nombr ede bonnes drops remplies
     private short count_n_filled = 0; // compteur nombre de mauvaises drops remplies 
-    private Component[] tags = new Component[1]; // tableau des tags de remplissage ou nn des bonnes drops
-    private Component[] tagsR = new Component[1]; // tableau des tags de remplissages dou nn des mauvaises drop
+    private bool[] tags = new bool[100]; // tableau des tags de remplissage ou nn des bonnes drops
+    private bool[] tagsR = new bool[100]; // tableau des tags de remplissages dou nn des mauvaises drop
     private Component[] tmp = new Component[50]; // tableau recepteur avant le tri
     public short length; // nombre bonnes drops dans la constellation
 
@@ -30,35 +30,39 @@ public class WinCondScene1 : MonoBehaviour
         // separation en fonction de leur etat dans les tableau tags et tagsR
         foreach(dropscript k in tmp)
         {
+            print("bougnoule");
             if(k.right == true)
-                Array.Resize(ref tags, a);
-                tags[a] = k;
+            {
+                tags[a] = k.filed;
                 a++;
+            }
 
             if(k.right == false)
-                Array.Resize(ref tagsR, b);
-                tagsR[b] = k;
+            {
+                tagsR[b] = k.filed;
+                print("aled");
                 b++;
-        }
+            }
 
+        }
+        print("negre");
         // étude des dropzones
-        foreach(dropscript j in tags)
+        foreach(bool j in tags)
         {
-            if (j.filed == true)
+            if (j == true)
+                print("jeanne");
                 count_filled++;
         }
-
-        foreach (dropscript j in tagsR)
+        print("puuuute");
+        foreach (bool j in tagsR)
         {
-            if (j.filed == true)
+            if (j == true)
+                print("oskour");
                 count_n_filled++;
         }
-
+        print("a l'air de marcher");
         //condition de victoire
         if (count_filled == length && count_n_filled == 0)
             print("Victoire");
-
-        Array.Resize(ref tags, 1);
-        Array.Resize(ref tagsR, 1);
     }
 }
