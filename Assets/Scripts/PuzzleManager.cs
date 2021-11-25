@@ -54,7 +54,7 @@ public class PuzzleManager : MonoBehaviour
             if (PlayerPrefs.GetFloat("scene1Ok") == 1)
                 PlayerPrefs.SetFloat("scene2&1Ok", 1);
             if (nbFails == 0)
-                PlayerPrefs.SetFloat("0faute", 1);
+                PlayerPrefs.SetFloat("0fauteScene2", 1);
         }
         else
             fireWorks.SetActive(false);
