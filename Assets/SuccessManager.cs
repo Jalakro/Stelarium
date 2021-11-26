@@ -7,7 +7,7 @@ public class SuccessManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayerPrefs.SetFloat("0faute", 0); //OK
+        PlayerPrefs.SetFloat("0fauteScene2", 0); //OK
         PlayerPrefs.SetFloat("scene1Ok", 0);//
         PlayerPrefs.SetFloat("scene2Ok", 0);//OK
         PlayerPrefs.SetFloat("scene2&1Ok", 0);//OK
