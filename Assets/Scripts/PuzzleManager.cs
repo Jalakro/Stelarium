@@ -36,7 +36,7 @@ public class PuzzleManager : MonoBehaviour
         if(nbFails > 10)
         {
             meteors.SetActive(true);
-
+            PlayerPrefs.SetFloat("deadByMeteores", 1);
         }
         else
             meteors.SetActive(false);
@@ -48,7 +48,14 @@ public class PuzzleManager : MonoBehaviour
                 victory = false;
         }
         if (victory)
+        {
             fireWorks.SetActive(true);
+            PlayerPrefs.SetFloat("scene2Ok",1);
+            if (PlayerPrefs.GetFloat("scene1Ok") == 1)
+                PlayerPrefs.SetFloat("scene2&1Ok", 1);
+            if (nbFails == 0)
+                PlayerPrefs.SetFloat("0fauteScene2", 1);
+        }
         else
             fireWorks.SetActive(false);
 

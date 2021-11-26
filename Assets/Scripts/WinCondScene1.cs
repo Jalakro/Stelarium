@@ -12,11 +12,12 @@ public class WinCondScene1 : MonoBehaviour
     private bool[] tagsR = new bool[100]; // tableau des tags de remplissages dou nn des mauvaises drop
     private Component[] tmp = new Component[50]; // tableau recepteur avant le tri
     public short length; // nombre bonnes drops dans la constellation
+    private GameObject winpanel;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        winpanel =  GameObject.FindGameObjectWithTag("winscene1");
     }
 
     // Update is called once per frame
@@ -55,6 +56,7 @@ public class WinCondScene1 : MonoBehaviour
         }
         //condition de victoire
         if (count_filled == length && count_n_filled == 0)
-            print("Victoire");
+            winpanel.SetActive(true);
+            
     }
 }
