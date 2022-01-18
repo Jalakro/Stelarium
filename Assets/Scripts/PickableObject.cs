@@ -94,7 +94,6 @@ public class PickableObject : MonoBehaviour
             else
             {
                 onSnapZone = false;
-                other.GetComponent<dropscript>().filed = false;
             }
         }
     }
@@ -104,10 +103,7 @@ public class PickableObject : MonoBehaviour
         print("test");
         if (other.gameObject.tag == "dropzone")
         {
-            if (other.GetComponent<dropscript>().filed == false)
-                other.GetComponent<dropscript>().filed = true;
-            else
-                other.GetComponent<dropscript>().filed = false;
+            other.GetComponent<dropscript>().filed = false;
         }
     }
 }
