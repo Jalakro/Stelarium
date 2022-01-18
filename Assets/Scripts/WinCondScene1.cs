@@ -28,11 +28,11 @@ public class WinCondScene1 : MonoBehaviour
 
         //recup des dropzones
         tmp = GetComponentsInChildren<dropscript>();
-        print("sale pute");
+        //print("sale pute");
         // separation en fonction de leur etat dans les tableau tags et tagsR
         foreach (dropscript k in tmp)
         {
-            print("bougnoule");
+            //print("bougnoule");
             if (k.right == true)
             {
                 tags[a] = k.filed;
@@ -42,27 +42,27 @@ public class WinCondScene1 : MonoBehaviour
             if (k.right == false)
             {
                 tagsR[b] = k.filed;
-                print("aled");
+                //print("aled");
                 b++;
             }
 
         }
-        print("negre");
+        //print("negre");
         // Ã©tude des dropzones
         foreach (bool j in tags)
         {
             if (j == true)
-                print("jeanne");
+                //print("jeanne");
             count_filled++;
         }
-        print("puuuute");
+        //print("puuuute");
         foreach (bool j in tagsR)
         {
             if (j == true)
-                print("oskour");
+                //print("oskour");
             count_n_filled++;
         }
-        print("a l'air de marcher");
+        //print("a l'air de marcher");
         //condition de victoire
         if (count_filled == length && count_n_filled == 0)
             winpanel.SetActive(true);

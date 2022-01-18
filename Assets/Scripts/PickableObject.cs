@@ -101,6 +101,7 @@ public class PickableObject : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        print("test");
         if (other.gameObject.tag == "dropzone")
         {
             if (other.GetComponent<dropscript>().filed == false)
