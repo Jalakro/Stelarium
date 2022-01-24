@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Scene3_Selection : MonoBehaviour
+public class Scene3 : MonoBehaviour
 {
-    [SerializeField] private short card;
-    [SerializeField] private short star;
+    [SerializeField] private int card;
+    [SerializeField] private int star;
 
 
     public void Cassiope_Name()
