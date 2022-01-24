@@ -6,92 +6,348 @@ public class Scene3 : MonoBehaviour
 {
     [SerializeField] private int card;
     [SerializeField] private int star;
-
+    [SerializeField] private GameObject[] tabBright;
+    private int selected;
 
     public void Cassiope_Name()
     {
         card = 1;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }       
     }
     public void Cephee_Name()
     {
         card = 2;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void Cancer_Name()
     {
         card = 3;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void PetiteOurs_Name()
     {
         card = 4;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void GrandeOurs_Name()
     {
         card = 5;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void Orion_Name()
     {
         card = 6;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void Boussole_Name()
     {
         card = 7;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void Persee_Name()
     {
         card = 8;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void Gemeaux_Name()
     {
         card = 9;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void Triangle_Name()
     {
         card = 10;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void Girafe_Name()
     {
         card = 11;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void CouronneBoreale_Name()
     {
         card = 12;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void Lion_Name()
     {
         card = 13;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void Dragon_Name()
     {
         card = 14;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void Serpent_Name()
     {
         card = 15;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void Hydre_Name()
     {
         card = 16;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void Vierge_Name()
     {
         card = 17;
-        //setActive(true) la surbrillance
+        if (selected == card)
+        {
+            selected = 0;
+            tabBright[card - 1].SetActive(false);
+        }
+        else if (selected == 0)
+        {
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
+        else
+        {
+            tabBright[selected - 1].SetActive(false);
+            selected = card;
+            tabBright[card - 1].SetActive(true);
+        }
     }
     public void Cassiope_Star()
     {
@@ -185,6 +441,7 @@ public class Scene3 : MonoBehaviour
     {
         card = 0;
         star = 0;
+        selected = 0;
     }
 
     // Update is called once per frame
