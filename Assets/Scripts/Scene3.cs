@@ -37,18 +37,18 @@ public class Scene3 : MonoBehaviour
         if (selected == star)
         {
             selected = 0;
-            tabStarBright[card - 1].SetActive(false);
+            tabStarBright[star - 1].SetActive(false);
         }
         else if (selected == 0)
         {
-            selected = card;
-            tabStarBright[card - 1].SetActive(true);
+            selected = star;
+            tabStarBright[star - 1].SetActive(true);
         }
         else
         {
-            tabBright[selected - 1].SetActive(false);
-            selected = card;
-            tabStarBright[card - 1].SetActive(true);
+            tabStarBright[selected - 1].SetActive(false);
+            selected = star;
+            tabStarBright[star - 1].SetActive(true);
         }       
     }
 
@@ -66,6 +66,22 @@ public class Scene3 : MonoBehaviour
     {
         if(star == card)
         {
+            //morceau pour en cas de bonne paire tout allumer puis tout éteindre sauf le 
+            for(int i = 0 ; i < 17 ; i++)
+            {
+                if(i != selected)
+                {
+                    tabNameBright[i].setActive(true);
+                }                    
+            }
+            wait(200);
+            sleep(200);
+            
+            for(int i = 0 ; i < 17 ; i++)
+            {
+                tabNameBright[i].setActive(false);
+            }
+            tabNameBright[selected].setActive(true);
             //afficher les infos sur la constellation recup grace au num
         }
         else
