@@ -71,17 +71,15 @@ public class Scene3 : MonoBehaviour
             {
                 if(i != selected)
                 {
-                    tabNameBright[i].setActive(true);
+                    tabNameBright[i].SetActive(true);
                 }                    
             }
-            wait(200);
-            sleep(200);
-            
+                        
             for(int i = 0 ; i < 17 ; i++)
             {
-                tabNameBright[i].setActive(false);
+                tabNameBright[i].SetActive(false);
             }
-            tabNameBright[selected].setActive(true);
+            tabNameBright[selected].SetActive(true);
             //afficher les infos sur la constellation recup grace au num
         }
         else
