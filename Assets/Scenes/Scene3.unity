@@ -206,7 +206,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -4120,7 +4120,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -5318,7 +5318,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -12341,7 +12341,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -12849,7 +12849,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -14137,7 +14137,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574075816}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.64, y: 1, z: 10.22}
+  m_LocalPosition: {x: -3.64, y: 1, z: 12.16}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_Children:
   - {fileID: 142057452}
@@ -22868,7 +22868,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -23560,7 +23560,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -30346,7 +30346,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -34960,7 +34960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: 0
   star: 0
-  tabBright:
+  tabNameBright:
   - {fileID: 5114415010364654060}
   - {fileID: 209272005}
   - {fileID: 1218662751}
@@ -34978,6 +34978,24 @@ MonoBehaviour:
   - {fileID: 218936642}
   - {fileID: 456109043}
   - {fileID: 1288127995}
+  tabStarBright:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1331169907
 GameObject:
   m_ObjectHideFlags: 0
@@ -36402,7 +36420,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -39253,7 +39271,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -40193,7 +40211,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -41406,7 +41424,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -41606,7 +41624,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -47328,7 +47346,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -48027,7 +48045,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
@@ -52024,7 +52042,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321074648}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene3, Assembly-CSharp
         m_MethodName: Card_Name
         m_Mode: 3
