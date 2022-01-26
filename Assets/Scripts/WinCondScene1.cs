@@ -38,10 +38,6 @@ public class WinCondScene1 : MonoBehaviour
                 count_n_filled ++;
             }
         }
-        print(count_filled);
-        print(count_n_filled);
-
-
         // separation en fonction de leur etat dans les tableau tags et tagsR
         /*foreach (dropscript k in tmp)
         {
