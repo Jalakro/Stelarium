@@ -9,14 +9,20 @@ public class WinCondScene1 : MonoBehaviour
     private bool[] tags = new bool[100]; // tableau des tags de remplissage ou nn des bonnes drops
     private bool[] tagsR = new bool[100]; // tableau des tags de remplissages dou nn des mauvaises drop
     private Component[] tmp = new Component[50]; // tableau recepteur avant le tri
-    public short length; // nombre bonnes drops dans la constellation
-    private GameObject winpanel;
+    private short length; // nombre bonnes drops dans la constellation
+
+    [SerializeField] private GameObject DropZoneManager;
+    //private GameObject winpanel;
 
     // Start is called before the first frame update
     void Start()
     {
-        winpanel = GameObject.FindGameObjectWithTag("winscene1");
-        winpanel.SetActive(false);
+        /*winpanel = GameObject.FindGameObjectWithTag("winscene1");
+        winpanel.SetActive(false);*/
+        tmp = GetComponentsInChildren<dropscript>();
+        foreach (dropscript k in tmp)
+            if (k.right == true)
+                length ++;
     }
 
     // Update is called once per frame
@@ -24,7 +30,7 @@ public class WinCondScene1 : MonoBehaviour
     {
         int count_filled = 0, count_n_filled = 0; // init de compteurs
 
-        //recup des dropzones
+        //recup des dropzones et vérification de la complétion de celles-ci
         tmp = GetComponentsInChildren<dropscript>();
         foreach (dropscript k in tmp)
         {
@@ -38,36 +44,16 @@ public class WinCondScene1 : MonoBehaviour
                 count_n_filled ++;
             }
         }
-        // separation en fonction de leur etat dans les tableau tags et tagsR
-        /*foreach (dropscript k in tmp)
-        {
-            if (k.right == true)
-            {
-                tags[a] = k.filed;
-                a++;
-            }
 
-            if (k.right == false)
-            {
-                tagsR[b] = k.filed;
-                b++;
-            }
-        }
-        // Ã©tude des dropzones
-        foreach (bool j in tags)
-        {
-            if (j == true)
-            count_filled++;
-        }
-        foreach (bool j in tagsR)
-        {
-            count_n_filled++;
-        }*/
         //condition de victoire
         if (count_filled == length && count_n_filled == 0)
-            winpanel.SetActive(true);
+            print("gagné");
+            //DropZoneManager.GetComponent<DropZoneSelector>().Complete[DropZoneManager.GetComponent<DropZoneSelector>().ID_Active] = true;
+            //winpanel.SetActive(true);
         else
-            winpanel.SetActive(false);
+            print("perdu");
+            //DropZoneManager.GetComponent<DropZoneSelector>().Complete[DropZoneManager.GetComponent<DropZoneSelector>().ID_Active] = false;
+            //winpanel.SetActive(false);
 
     }
 }
