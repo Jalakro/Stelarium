@@ -48,10 +48,16 @@ public class DropZoneSelector : MonoBehaviour
 
         //condition de victoire
         if (count_filled == length && count_n_filled == 0)
+        {
             winpanel.SetActive(true);
+            Complete[ID_Active] = true;
+        }
         else
+        {
             winpanel.SetActive(false);
-
+            Complete[ID_Active] = false;
+        }
+        print(Complete[0] + " et " + Complete[1] + " et " + Complete[2]);
     }
 
     public void IncrementDropZoneActive()
