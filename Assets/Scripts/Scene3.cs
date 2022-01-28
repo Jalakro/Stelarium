@@ -4,32 +4,33 @@ using UnityEngine;
 
 public class Scene3 : MonoBehaviour
 {
-    [SerializeField] private int card;
-    [SerializeField] private int star;
-    private int selected;
-    private int finished;
-    [SerializeField] private GameObject[] tabNameBright;
-    [SerializeField] private GameObject[] tabStarBright;
-    [SerializeField] private bool[] tabFinished = new bool[17];
-    [SerializeField] private GameObject winpanel;
+    [SerializeField] private int card; //variable correspondant a l'id de la derniere carte select -> 0 rien et apres de 1 à 17
+    [SerializeField] private int star; //variable pareil que card pour les constellation
+    private int selectedCard; //variable contenant l'id de la carte précedemment selected pour gerer l'affichage du bright sur la bonne carte
+    private int selectedStar; //pareil que celle au dessus pour les constellations 
+    private int finished; //compteur pour la verif de victoire en comptant les couples carte et constellation trouvés
+    [SerializeField] private GameObject[] tabNameBright; //tab des bright des cartes pour les SetActive quand selected
+    [SerializeField] private GameObject[] tabStarBright; //tab des bright des constellations
+    [SerializeField] private bool[] tabFinished = new bool[17]; //tab de bools avec un bool pour chaque couple verif si complété
+    [SerializeField] private GameObject winpanel; //panel affichant la victoire
 
     public void Card_Name(int id)
     {
         card = id;
-        if (selected == card)
+        if (selectedCard == card)
         {
-            selected = 0;
+            selectedCard = 0;
             tabNameBright[card - 1].SetActive(false);
         }
-        else if (selected == 0)
+        else if (selectedCard == 0)
         {
-            selected = card;
+            selectedCard = card;
             tabNameBright[card - 1].SetActive(true);
         }
         else
         {
-            tabNameBright[selected - 1].SetActive(false);
-            selected = card;
+            tabNameBright[selectedCard - 1].SetActive(false);
+            selectedCard = card;
             tabNameBright[card - 1].SetActive(true);
         }       
     }
@@ -37,20 +38,20 @@ public class Scene3 : MonoBehaviour
     public void Stars(int id)
     {
         star = id;
-        if (selected == star)
+        if (selectedStar == star)
         {
-            selected = 0;
+            selectedStar = 0;
             tabStarBright[star - 1].SetActive(false);
         }
-        else if (selected == 0)
+        else if (selectedStar == 0)
         {
-            selected = star;
+            selectedStar = star;
             tabStarBright[star - 1].SetActive(true);
         }
         else
         {
-            tabStarBright[selected - 1].SetActive(false);
-            selected = star;
+            tabStarBright[selectedStar - 1].SetActive(false);
+            selectedStar = star;
             tabStarBright[star - 1].SetActive(true);
         }       
     }
@@ -61,7 +62,8 @@ public class Scene3 : MonoBehaviour
     {
         card = 0;
         star = 0;
-        selected = 0;
+        selectedCard = 0;
+        selectedStar = 0;
     }
 
     // Update is called once per frame
@@ -69,12 +71,12 @@ public class Scene3 : MonoBehaviour
     {
         if(star == card)
         {
-            tabFinished[card] = true;
+            tabFinished[card - 1] = true;
 
             //morceau pour en cas de bonne paire tout allumer puis tout éteindre sauf le rempli
             for(int i = 0 ; i < 17 ; i++)
             {
-                if(i != selected)
+                if(i != selectedCard)
                 {
                     tabNameBright[i].SetActive(true);
                 }                    
@@ -84,7 +86,7 @@ public class Scene3 : MonoBehaviour
             {
                 tabNameBright[i].SetActive(false);
             }
-            tabNameBright[selected].SetActive(true);
+            tabNameBright[selectedCard].SetActive(true);
             //TODO//afficher les infos sur la constellation recup grace au num
         }
         else
@@ -94,6 +96,15 @@ public class Scene3 : MonoBehaviour
             //setActive(false) surbrillance stars
             star =0;
             card = 0;
+        }
+
+        for(int i = 0 ; i < 17 ; i++)
+        {
+            if(tabFinished[i] == true)
+            {
+                tabNameBright[i].SetActive(true);
+                tabStarBright[i].SetActive(true);
+            }
         }
 
         //laisser allumer les bright des couples trouvés
