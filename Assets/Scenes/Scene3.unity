@@ -2723,7 +2723,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cass
+  m_text: 'Orion
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3730,7 +3732,7 @@ GameObject:
   - component: {fileID: 115941344}
   m_Layer: 0
   m_Name: brightLio
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6709,7 +6711,7 @@ GameObject:
   - component: {fileID: 209272006}
   m_Layer: 0
   m_Name: brightCeph
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7063,7 +7065,7 @@ GameObject:
   - component: {fileID: 218936643}
   m_Layer: 0
   m_Name: brightSerp
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9716,18 +9718,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297906483}
-  m_LocalRotation: {x: 0, y: 0.5, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 0, z: 616}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.24763393, y: -0.6623273, z: -0.1770454, w: 0.6845838}
+  m_LocalPosition: {x: 0, y: 0, z: -314}
+  m_LocalScale: {x: 4, y: 2.5, z: 1}
   m_Children:
   - {fileID: 1193360487}
   - {fileID: 867269992}
   m_Father: {fileID: 579024496}
   m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 60, z: 0}
+  m_LocalEulerAnglesHint: {x: -35, y: -90, z: 6}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1242, y: 500}
+  m_AnchoredPosition: {x: -2129, y: 2195}
   m_SizeDelta: {x: 360, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &297906485
@@ -11544,8 +11546,8 @@ GameObject:
   m_Component:
   - component: {fileID: 394456496}
   m_Layer: 0
-  m_Name: brightCass*
-  m_TagString: Untagged
+  m_Name: brightGOurs*
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11594,7 +11596,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401036292}
   m_LocalRotation: {x: 0, y: 0.5, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 0, z: 616}
+  m_LocalPosition: {x: 0, y: 0, z: 697}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 836002453}
@@ -11604,7 +11606,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 60, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1242, y: 500}
+  m_AnchoredPosition: {x: 1195, y: 42}
   m_SizeDelta: {x: 360, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &401036294
@@ -12971,7 +12973,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cass
+  m_text: 'Gira
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13755,7 +13759,7 @@ GameObject:
   - component: {fileID: 456109044}
   m_Layer: 0
   m_Name: brightHydr
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14475,18 +14479,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478190987}
-  m_LocalRotation: {x: 0, y: 0.5, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 0, z: 616}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalPosition: {x: 0, y: 0, z: 1894}
+  m_LocalScale: {x: 6.84, y: 5.47, z: 1}
   m_Children:
   - {fileID: 1166672826}
   - {fileID: 559167320}
   m_Father: {fileID: 579024496}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 60, z: 0}
+  m_LocalEulerAnglesHint: {x: -50, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1242, y: 500}
+  m_AnchoredPosition: {x: -116, y: 2884}
   m_SizeDelta: {x: 360, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &478190989
@@ -14731,8 +14735,8 @@ GameObject:
   m_Component:
   - component: {fileID: 484485166}
   m_Layer: 0
-  m_Name: brightCass*
-  m_TagString: Untagged
+  m_Name: bightPOurs*
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15551,7 +15555,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cass
+  m_text: 'GOurs
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15772,7 +15778,7 @@ GameObject:
   - component: {fileID: 500735224}
   m_Layer: 0
   m_Name: brightPOurs
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16048,7 +16054,7 @@ GameObject:
   - component: {fileID: 512258317}
   m_Layer: 0
   m_Name: brightCanc*
-  m_TagString: Untagged
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16080,8 +16086,8 @@ GameObject:
   m_Component:
   - component: {fileID: 514178599}
   m_Layer: 0
-  m_Name: brightCass*
-  m_TagString: Untagged
+  m_Name: brightCBor*
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16816,7 +16822,7 @@ GameObject:
   - component: {fileID: 553812632}
   m_Layer: 0
   m_Name: brightCeph*
-  m_TagString: Untagged
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17063,8 +17069,8 @@ GameObject:
   m_Component:
   - component: {fileID: 559167320}
   m_Layer: 0
-  m_Name: brightCass*
-  m_TagString: Untagged
+  m_Name: "brightG\xE9m*"
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18990,18 +18996,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642542335}
-  m_LocalRotation: {x: 0, y: 0.5, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 0, z: 616}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2545}
+  m_LocalScale: {x: 4.23, y: 4.9, z: 1}
   m_Children:
   - {fileID: 690069370}
   - {fileID: 1458836368}
   m_Father: {fileID: 579024496}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 60, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1242, y: 500}
+  m_AnchoredPosition: {x: 128, y: 1045}
   m_SizeDelta: {x: 360, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &642542337
@@ -19808,7 +19814,7 @@ GameObject:
   - component: {fileID: 677158526}
   m_Layer: 0
   m_Name: brightGem
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22988,18 +22994,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792517373}
-  m_LocalRotation: {x: 0, y: 0.5, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 0, z: 616}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.08253044, y: 0.3202162, z: 0.0280153, w: 0.94332683}
+  m_LocalPosition: {x: 0, y: 0, z: 1096}
+  m_LocalScale: {x: 2.2, y: 2.5, z: 1}
   m_Children:
   - {fileID: 1085894317}
   - {fileID: 885822269}
   m_Father: {fileID: 579024496}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 60, z: 0}
+  m_LocalEulerAnglesHint: {x: -10, y: 37.5, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1242, y: 500}
+  m_AnchoredPosition: {x: 998, y: 789}
   m_SizeDelta: {x: 360, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &792517375
@@ -23155,7 +23161,7 @@ GameObject:
   - component: {fileID: 800092404}
   m_Layer: 0
   m_Name: brightCass*
-  m_TagString: Untagged
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24313,8 +24319,8 @@ GameObject:
   m_Component:
   - component: {fileID: 867269992}
   m_Layer: 0
-  m_Name: brightCass*
-  m_TagString: Untagged
+  m_Name: brightLion*
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24832,8 +24838,8 @@ GameObject:
   m_Component:
   - component: {fileID: 885822269}
   m_Layer: 0
-  m_Name: brightCass*
-  m_TagString: Untagged
+  m_Name: brightPers*
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27216,7 +27222,7 @@ GameObject:
   - component: {fileID: 998597232}
   m_Layer: 0
   m_Name: brightGira
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28328,7 +28334,7 @@ GameObject:
   - component: {fileID: 1037650388}
   m_Layer: 0
   m_Name: brightDrag
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34085,7 +34091,7 @@ GameObject:
   - component: {fileID: 1078273330}
   m_Layer: 0
   m_Name: brightBous
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34687,7 +34693,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cass
+  m_text: 'Pers
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -34775,7 +34783,7 @@ GameObject:
   - component: {fileID: 1092355631}
   m_Layer: 0
   m_Name: brightCass*
-  m_TagString: Untagged
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39062,7 +39070,7 @@ GameObject:
   - component: {fileID: 1213730552}
   m_Layer: 0
   m_Name: brightCass*
-  m_TagString: Untagged
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39095,7 +39103,7 @@ GameObject:
   - component: {fileID: 1218662752}
   m_Layer: 0
   m_Name: brightCanc
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39255,7 +39263,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cass
+  m_text: "G\xE9m\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -41187,7 +41195,7 @@ GameObject:
   - component: {fileID: 1288127996}
   m_Layer: 0
   m_Name: brightVier
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41875,18 +41883,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316580745}
-  m_LocalRotation: {x: 0, y: 0.5, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 0, z: 616}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.56019574, y: 0.4314867, z: 0.4314867, w: 0.56019574}
+  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalScale: {x: 3.7, y: 2, z: 1}
   m_Children:
   - {fileID: 273092850}
   - {fileID: 394456496}
   m_Father: {fileID: 579024496}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 60, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 75.21, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1242, y: 500}
+  m_AnchoredPosition: {x: 432, y: 2900}
   m_SizeDelta: {x: 360, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1316580747
@@ -41961,7 +41969,7 @@ GameObject:
   - component: {fileID: 1316640638}
   m_Layer: 0
   m_Name: brightPers
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42028,44 +42036,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6f097d2c5c78bb4f906a36582d8aea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: 0
-  star: 0
-  tabNameBright:
-  - {fileID: 5114415010364654060}
-  - {fileID: 209272005}
-  - {fileID: 1218662751}
-  - {fileID: 500735223}
-  - {fileID: 2058019939}
-  - {fileID: 1359000078}
-  - {fileID: 1078273329}
-  - {fileID: 1316640637}
-  - {fileID: 677158525}
-  - {fileID: 1962677831}
-  - {fileID: 998597231}
-  - {fileID: 1477554245}
-  - {fileID: 115941343}
-  - {fileID: 1037650387}
-  - {fileID: 218936642}
-  - {fileID: 456109043}
-  - {fileID: 1288127995}
-  tabStarBright:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   tabFinished: 0000000000000000000000000000000000
   winpanel: {fileID: 303652714}
 --- !u!1 &1331169907
@@ -42851,7 +42821,7 @@ GameObject:
   - component: {fileID: 1359000079}
   m_Layer: 0
   m_Name: brightOri
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43017,8 +42987,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1362009525}
   m_Layer: 0
-  m_Name: brightCass*
-  m_TagString: Untagged
+  m_Name: brightBous*
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45738,8 +45708,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1458836368}
   m_Layer: 0
-  m_Name: brightCass*
-  m_TagString: Untagged
+  m_Name: brightOrion*
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45771,8 +45741,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1469610393}
   m_Layer: 0
-  m_Name: brightCass*
-  m_TagString: Untagged
+  m_Name: brightGira*
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46001,7 +45971,7 @@ GameObject:
   - component: {fileID: 1477554246}
   m_Layer: 0
   m_Name: brightCBor
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52108,18 +52078,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672317592}
-  m_LocalRotation: {x: 0, y: 0.5, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 0, z: 616}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.33261648, y: 0.4119147, z: 0.09998746, w: 0.842434}
+  m_LocalPosition: {x: 0, y: 0, z: 881}
+  m_LocalScale: {x: 4, y: 3.23, z: 1}
   m_Children:
   - {fileID: 1228942031}
   - {fileID: 1469610393}
   m_Father: {fileID: 579024496}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 60, z: 0}
+  m_LocalEulerAnglesHint: {x: -40, y: 55, z: -7.92}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1242, y: 500}
+  m_AnchoredPosition: {x: 1038, y: 1855}
   m_SizeDelta: {x: 360, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1672317594
@@ -55085,7 +55055,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cass
+  m_text: Trian
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -56406,7 +56376,7 @@ GameObject:
   - component: {fileID: 1795718658}
   m_Layer: 0
   m_Name: brightCass*
-  m_TagString: Untagged
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61160,7 +61130,7 @@ GameObject:
   - component: {fileID: 1962677832}
   m_Layer: 0
   m_Name: brightTrian
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61239,7 +61209,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cass
+  m_text: CBor
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -61488,7 +61458,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cass
+  m_text: Bouss
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -61672,18 +61642,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975323255}
-  m_LocalRotation: {x: 0, y: 0.5, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 0, z: 616}
+  m_LocalRotation: {x: 0, y: -0.3420201, z: 0, w: 0.9396927}
+  m_LocalPosition: {x: 0, y: 0, z: 1557}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 202739770}
   - {fileID: 1362009525}
   m_Father: {fileID: 579024496}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 60, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -40, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1242, y: 500}
+  m_AnchoredPosition: {x: -1544, y: 276}
   m_SizeDelta: {x: 360, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1975323257
@@ -62140,18 +62110,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981113791}
-  m_LocalRotation: {x: 0, y: 0.5, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 0, z: 616}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.273927, y: 0.7757195, z: 0.2813123, w: 0.4940513}
+  m_LocalPosition: {x: 0, y: 0, z: -1210}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 1782538804}
   - {fileID: 514178599}
   m_Father: {fileID: 579024496}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 60, z: 0}
+  m_LocalEulerAnglesHint: {x: -45, y: 120, z: -12}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1242, y: 500}
+  m_AnchoredPosition: {x: 1226, y: 1760}
   m_SizeDelta: {x: 360, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1981113793
@@ -69213,7 +69183,7 @@ GameObject:
   - component: {fileID: 2058019940}
   m_Layer: 0
   m_Name: brightGOurs
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69524,7 +69494,7 @@ GameObject:
   - component: {fileID: 2066819007}
   m_Layer: 0
   m_Name: brightCass*
-  m_TagString: Untagged
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69603,7 +69573,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cass
+  m_text: 'Lion
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -70636,8 +70608,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2112907343}
   m_Layer: 0
-  m_Name: brightCass*
-  m_TagString: Untagged
+  m_Name: brightTrian*
+  m_TagString: S3_Star_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71866,7 +71838,7 @@ GameObject:
   - component: {fileID: 5598499861973850966}
   m_Layer: 0
   m_Name: brightCass
-  m_TagString: Untagged
+  m_TagString: S3_Card_Name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

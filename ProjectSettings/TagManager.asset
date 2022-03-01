@@ -24,6 +24,8 @@ TagManager:
   - SnapZone10
   - SnapZone11
   - winscene1
+  - S3_Card_Name
+  - S3_Star_Name
   layers:
   - Default
   - TransparentFX
