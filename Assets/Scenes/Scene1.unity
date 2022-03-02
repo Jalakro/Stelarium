@@ -9157,7 +9157,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490471448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.827, y: 0.998, z: -4.56}
+  m_LocalPosition: {x: -5.827, y: 0.998, z: -4.59}
   m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
   m_Children: []
   m_Father: {fileID: 749902202154531273}
@@ -13232,7 +13232,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738696536}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.83, y: 0.998, z: -4.655}
+  m_LocalPosition: {x: -5.83, y: 0.998, z: -4.6796}
   m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
   m_Children: []
   m_Father: {fileID: 749902200749074771}
@@ -40114,7 +40114,7 @@ GameObject:
   - component: {fileID: 749902200428598898}
   m_Layer: 0
   m_Name: dropR (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40291,7 +40291,7 @@ GameObject:
   - component: {fileID: 749902200551869538}
   m_Layer: 0
   m_Name: drop (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40511,7 +40511,7 @@ GameObject:
   - component: {fileID: 749902200562487540}
   m_Layer: 0
   m_Name: drop
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40610,7 +40610,7 @@ GameObject:
   - component: {fileID: 749902200581097258}
   m_Layer: 0
   m_Name: dropR (7)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40787,7 +40787,7 @@ GameObject:
   - component: {fileID: 749902200584849366}
   m_Layer: 0
   m_Name: drop (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40947,7 +40947,7 @@ GameObject:
   - component: {fileID: 749902200590263286}
   m_Layer: 0
   m_Name: dropR (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41125,7 +41125,7 @@ GameObject:
   - component: {fileID: 749902200615692706}
   m_Layer: 0
   m_Name: dropR (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41302,7 +41302,7 @@ GameObject:
   - component: {fileID: 749902200618607354}
   m_Layer: 0
   m_Name: drop (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41640,7 +41640,7 @@ GameObject:
   - component: {fileID: 749902200663288222}
   m_Layer: 0
   m_Name: dropR (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41817,7 +41817,7 @@ GameObject:
   - component: {fileID: 749902200677074770}
   m_Layer: 0
   m_Name: drop (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41977,7 +41977,7 @@ GameObject:
   - component: {fileID: 749902200710958302}
   m_Layer: 0
   m_Name: dropR (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42154,7 +42154,7 @@ GameObject:
   - component: {fileID: 749902200715726770}
   m_Layer: 0
   m_Name: drop (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42403,7 +42403,7 @@ GameObject:
   - component: {fileID: 749902200762343256}
   m_Layer: 0
   m_Name: dropR (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42609,7 +42609,7 @@ GameObject:
   - component: {fileID: 749902200807038112}
   m_Layer: 0
   m_Name: drop (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42707,7 +42707,7 @@ GameObject:
   - component: {fileID: 749902200817236770}
   m_Layer: 0
   m_Name: drop (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42924,7 +42924,7 @@ GameObject:
   - component: {fileID: 749902200916313014}
   m_Layer: 0
   m_Name: dropR (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43455,7 +43455,7 @@ GameObject:
   - component: {fileID: 749902200995854452}
   m_Layer: 0
   m_Name: drop
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43554,7 +43554,7 @@ GameObject:
   - component: {fileID: 749902201046467818}
   m_Layer: 0
   m_Name: dropR
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43970,7 +43970,7 @@ GameObject:
   - component: {fileID: 749902201086191500}
   m_Layer: 0
   m_Name: drop (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44135,7 +44135,7 @@ GameObject:
   - component: {fileID: 749902201096466101}
   m_Layer: 0
   m_Name: dropR (8)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44246,7 +44246,7 @@ GameObject:
   - component: {fileID: 749902201133282874}
   m_Layer: 0
   m_Name: drop
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44406,7 +44406,7 @@ GameObject:
   - component: {fileID: 749902201162843286}
   m_Layer: 0
   m_Name: dropR (7)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44761,7 +44761,7 @@ GameObject:
   - component: {fileID: 749902201166974794}
   m_Layer: 0
   m_Name: drop (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44953,7 +44953,7 @@ GameObject:
   - component: {fileID: 749902201186767272}
   m_Layer: 0
   m_Name: dropR (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45098,7 +45098,7 @@ GameObject:
   - component: {fileID: 749902201194701806}
   m_Layer: 0
   m_Name: drop (7)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45496,7 +45496,7 @@ GameObject:
   - component: {fileID: 749902201277936680}
   m_Layer: 0
   m_Name: drop (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45627,7 +45627,7 @@ GameObject:
   - component: {fileID: 749902201287401304}
   m_Layer: 0
   m_Name: dropR (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45839,7 +45839,7 @@ GameObject:
   - component: {fileID: 749902201299919629}
   m_Layer: 0
   m_Name: dropR (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46012,7 +46012,7 @@ GameObject:
   - component: {fileID: 749902201301260057}
   m_Layer: 0
   m_Name: drop (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46109,7 +46109,7 @@ GameObject:
   - component: {fileID: 749902201302097070}
   m_Layer: 0
   m_Name: drop (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46446,7 +46446,7 @@ GameObject:
   - component: {fileID: 749902201311764314}
   m_Layer: 0
   m_Name: drop (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46638,7 +46638,7 @@ GameObject:
   - component: {fileID: 749902201337086208}
   m_Layer: 0
   m_Name: dropR
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46985,7 +46985,7 @@ GameObject:
   - component: {fileID: 749902201413912190}
   m_Layer: 0
   m_Name: dropR (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47020,7 +47020,7 @@ GameObject:
   - component: {fileID: 749902201416011874}
   m_Layer: 0
   m_Name: drop (8)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47240,7 +47240,7 @@ GameObject:
   - component: {fileID: 749902201427636740}
   m_Layer: 0
   m_Name: drop (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47405,7 +47405,7 @@ GameObject:
   - component: {fileID: 749902201446273929}
   m_Layer: 0
   m_Name: dropR (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47516,7 +47516,7 @@ GameObject:
   - component: {fileID: 749902201494847326}
   m_Layer: 0
   m_Name: drop (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47742,7 +47742,7 @@ GameObject:
   - component: {fileID: 749902201496220909}
   m_Layer: 0
   m_Name: dropR (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47996,7 +47996,7 @@ GameObject:
   - component: {fileID: 749902201519206272}
   m_Layer: 0
   m_Name: dropR (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48264,7 +48264,7 @@ GameObject:
   - component: {fileID: 749902201531824688}
   m_Layer: 0
   m_Name: dropR
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48387,7 +48387,7 @@ GameObject:
   - component: {fileID: 749902201533111638}
   m_Layer: 0
   m_Name: drop (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48579,7 +48579,7 @@ GameObject:
   - component: {fileID: 749902201546069012}
   m_Layer: 0
   m_Name: dropR (7)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48724,7 +48724,7 @@ GameObject:
   - component: {fileID: 749902201550890022}
   m_Layer: 0
   m_Name: drop (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48944,7 +48944,7 @@ GameObject:
   - component: {fileID: 749902201570447916}
   m_Layer: 0
   m_Name: drop
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49101,7 +49101,7 @@ GameObject:
   - component: {fileID: 749902201641487146}
   m_Layer: 0
   m_Name: dropR (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49278,7 +49278,7 @@ GameObject:
   - component: {fileID: 749902201642763678}
   m_Layer: 0
   m_Name: drop (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49504,7 +49504,7 @@ GameObject:
   - component: {fileID: 749902201675842941}
   m_Layer: 0
   m_Name: dropR (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49616,7 +49616,7 @@ GameObject:
   - component: {fileID: 749902201709266070}
   m_Layer: 0
   m_Name: dropR
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49794,7 +49794,7 @@ GameObject:
   - component: {fileID: 749902201729281610}
   m_Layer: 0
   m_Name: dropR (7)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49979,7 +49979,7 @@ GameObject:
   - component: {fileID: 749902201764647866}
   m_Layer: 0
   m_Name: drop (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50309,7 +50309,7 @@ GameObject:
   - component: {fileID: 749902201778472558}
   m_Layer: 0
   m_Name: dropR (8)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50547,7 +50547,7 @@ GameObject:
   - component: {fileID: 749902201811689148}
   m_Layer: 0
   m_Name: drop (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50646,7 +50646,7 @@ GameObject:
   - component: {fileID: 749902201873503290}
   m_Layer: 0
   m_Name: dropR (9)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50824,7 +50824,7 @@ GameObject:
   - component: {fileID: 749902201938281694}
   m_Layer: 0
   m_Name: dropR (7)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51002,7 +51002,7 @@ GameObject:
   - component: {fileID: 749902201953608578}
   m_Layer: 0
   m_Name: dropR (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51212,7 +51212,7 @@ GameObject:
   - component: {fileID: 749902201956299816}
   m_Layer: 0
   m_Name: dropR (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51358,7 +51358,7 @@ GameObject:
   - component: {fileID: 749902201982489038}
   m_Layer: 0
   m_Name: dropR (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51597,7 +51597,7 @@ GameObject:
   - component: {fileID: 749902201986549241}
   m_Layer: 0
   m_Name: drop (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51695,7 +51695,7 @@ GameObject:
   - component: {fileID: 749902201996508726}
   m_Layer: 0
   m_Name: dropR (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51873,7 +51873,7 @@ GameObject:
   - component: {fileID: 749902201998659426}
   m_Layer: 0
   m_Name: dropR (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52112,7 +52112,7 @@ GameObject:
   - component: {fileID: 749902202029412961}
   m_Layer: 0
   m_Name: drop (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52270,7 +52270,7 @@ GameObject:
   - component: {fileID: 749902202112417872}
   m_Layer: 0
   m_Name: drop (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52560,7 +52560,7 @@ GameObject:
   - component: {fileID: 749902202139850648}
   m_Layer: 0
   m_Name: dropR (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52967,7 +52967,7 @@ GameObject:
   - component: {fileID: 749902202198120960}
   m_Layer: 0
   m_Name: dropR (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53112,7 +53112,7 @@ GameObject:
   - component: {fileID: 749902202228741098}
   m_Layer: 0
   m_Name: drop (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53272,7 +53272,7 @@ GameObject:
   - component: {fileID: 749902202233957794}
   m_Layer: 0
   m_Name: dropR (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53450,7 +53450,7 @@ GameObject:
   - component: {fileID: 749902202238849874}
   m_Layer: 0
   m_Name: dropR (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53964,7 +53964,7 @@ GameObject:
   - component: {fileID: 749902202301540914}
   m_Layer: 0
   m_Name: drop
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54124,7 +54124,7 @@ GameObject:
   - component: {fileID: 749902202325243906}
   m_Layer: 0
   m_Name: dropR (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54362,7 +54362,7 @@ GameObject:
   - component: {fileID: 749902202328653872}
   m_Layer: 0
   m_Name: drop (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54620,7 +54620,7 @@ GameObject:
   - component: {fileID: 749902202343187546}
   m_Layer: 0
   m_Name: dropR (8)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54798,7 +54798,7 @@ GameObject:
   - component: {fileID: 749902202348074650}
   m_Layer: 0
   m_Name: dropR (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54976,7 +54976,7 @@ GameObject:
   - component: {fileID: 749902202360831402}
   m_Layer: 0
   m_Name: dropR (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55154,7 +55154,7 @@ GameObject:
   - component: {fileID: 749902202427471970}
   m_Layer: 0
   m_Name: dropR (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55523,7 +55523,7 @@ GameObject:
   - component: {fileID: 749902202503291516}
   m_Layer: 0
   m_Name: dropR
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55735,7 +55735,7 @@ GameObject:
   - component: {fileID: 749902202520377821}
   m_Layer: 0
   m_Name: dropR (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75845,7 +75845,7 @@ GameObject:
   - component: {fileID: 4398564540078868972}
   m_Layer: 0
   m_Name: drop (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76289,7 +76289,7 @@ GameObject:
   - component: {fileID: 4398564540113193478}
   m_Layer: 0
   m_Name: drop (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76448,7 +76448,7 @@ GameObject:
   - component: {fileID: 4398564540137387526}
   m_Layer: 0
   m_Name: drop (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76736,7 +76736,7 @@ GameObject:
   - component: {fileID: 4398564540139069590}
   m_Layer: 0
   m_Name: dropR (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76785,7 +76785,7 @@ GameObject:
   - component: {fileID: 4398564540149590722}
   m_Layer: 0
   m_Name: drop (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77073,7 +77073,7 @@ GameObject:
   - component: {fileID: 4398564540168632406}
   m_Layer: 0
   m_Name: dropR (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77265,7 +77265,7 @@ GameObject:
   - component: {fileID: 4398564540172646008}
   m_Layer: 0
   m_Name: dropR (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77360,7 +77360,7 @@ GameObject:
   - component: {fileID: 4398564540192632066}
   m_Layer: 0
   m_Name: dropR
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77661,7 +77661,7 @@ GameObject:
   - component: {fileID: 4398564540200433070}
   m_Layer: 0
   m_Name: drop
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77806,7 +77806,7 @@ GameObject:
   - component: {fileID: 4398564540288154422}
   m_Layer: 0
   m_Name: drop (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77965,7 +77965,7 @@ GameObject:
   - component: {fileID: 4398564540307515742}
   m_Layer: 0
   m_Name: drop (8)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78015,7 +78015,7 @@ GameObject:
   - component: {fileID: 4398564540326916546}
   m_Layer: 0
   m_Name: dropR
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78321,7 +78321,7 @@ GameObject:
   - component: {fileID: 4398564540328764848}
   m_Layer: 0
   m_Name: dropR (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78432,7 +78432,7 @@ GameObject:
   - component: {fileID: 4398564540356463837}
   m_Layer: 0
   m_Name: drop (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78736,7 +78736,7 @@ GameObject:
   - component: {fileID: 4398564540408372565}
   m_Layer: 0
   m_Name: drop (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78962,7 +78962,7 @@ GameObject:
   - component: {fileID: 4398564540412160832}
   m_Layer: 0
   m_Name: dropR (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79156,7 +79156,7 @@ GameObject:
   - component: {fileID: 4398564540456827906}
   m_Layer: 0
   m_Name: dropR (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79394,7 +79394,7 @@ GameObject:
   - component: {fileID: 4398564540526297972}
   m_Layer: 0
   m_Name: drop (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79525,7 +79525,7 @@ GameObject:
   - component: {fileID: 4398564540526467528}
   m_Layer: 0
   m_Name: dropR (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79731,7 +79731,7 @@ GameObject:
   - component: {fileID: 4398564540531958884}
   m_Layer: 0
   m_Name: drop (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79862,7 +79862,7 @@ GameObject:
   - component: {fileID: 4398564540538618784}
   m_Layer: 0
   m_Name: dropR
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80068,7 +80068,7 @@ GameObject:
   - component: {fileID: 4398564540562636332}
   m_Layer: 0
   m_Name: drop
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80175,7 +80175,7 @@ GameObject:
   - component: {fileID: 4398564540570403050}
   m_Layer: 0
   m_Name: dropR (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80468,7 +80468,7 @@ GameObject:
   - component: {fileID: 4398564540613287614}
   m_Layer: 0
   m_Name: drop (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80903,7 +80903,7 @@ GameObject:
   - component: {fileID: 4398564540676459254}
   m_Layer: 0
   m_Name: drop
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81095,7 +81095,7 @@ GameObject:
   - component: {fileID: 4398564540682607342}
   m_Layer: 0
   m_Name: dropR (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81163,7 +81163,7 @@ GameObject:
   - component: {fileID: 4398564540709402536}
   m_Layer: 0
   m_Name: dropR (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81375,7 +81375,7 @@ GameObject:
   - component: {fileID: 4398564540718067816}
   m_Layer: 0
   m_Name: dropR (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81486,7 +81486,7 @@ GameObject:
   - component: {fileID: 4398564540738895110}
   m_Layer: 0
   m_Name: drop (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82077,7 +82077,7 @@ GameObject:
   - component: {fileID: 4398564540796424624}
   m_Layer: 0
   m_Name: dropR (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82399,7 +82399,7 @@ GameObject:
   - component: {fileID: 4398564540839101600}
   m_Layer: 0
   m_Name: dropR
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82544,7 +82544,7 @@ GameObject:
   - component: {fileID: 4398564540844137120}
   m_Layer: 0
   m_Name: drop (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82594,7 +82594,7 @@ GameObject:
   - component: {fileID: 4398564540888904742}
   m_Layer: 0
   m_Name: dropR (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82976,7 +82976,7 @@ GameObject:
   - component: {fileID: 4398564540984506668}
   m_Layer: 0
   m_Name: drop (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83228,7 +83228,7 @@ GameObject:
   - component: {fileID: 4398564541000065050}
   m_Layer: 0
   m_Name: dropR (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83397,7 +83397,7 @@ GameObject:
   - component: {fileID: 4398564541000924546}
   m_Layer: 0
   m_Name: drop (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83556,7 +83556,7 @@ GameObject:
   - component: {fileID: 4398564541035129958}
   m_Layer: 0
   m_Name: drop (7)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83765,7 +83765,7 @@ GameObject:
   - component: {fileID: 4398564541048886202}
   m_Layer: 0
   m_Name: dropR (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83954,7 +83954,7 @@ GameObject:
   - component: {fileID: 4398564541050367752}
   m_Layer: 0
   m_Name: drop (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84342,7 +84342,7 @@ GameObject:
   - component: {fileID: 4398564541137444962}
   m_Layer: 0
   m_Name: drop (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84568,7 +84568,7 @@ GameObject:
   - component: {fileID: 4398564541156885685}
   m_Layer: 0
   m_Name: dropR (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84789,7 +84789,7 @@ GameObject:
   - component: {fileID: 4398564541189441998}
   m_Layer: 0
   m_Name: drop (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84861,7 +84861,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4398564541215980005}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.83, y: 0.998, z: -4.655}
+  m_LocalPosition: {x: -5.7702, y: 0.998, z: -4.655}
   m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
   m_Children: []
   m_Father: {fileID: 749902200749074771}
@@ -84880,8 +84880,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   positions:
-  - {x: -3.817, y: 1, z: -4.595}
-  - {x: -4.547, y: 1, z: -4.483}
+  - {x: -4.256, y: 1.006, z: -4.483}
+  - {x: -4.02, y: 1.006, z: -4.4}
+  - {x: -4.079, y: 1.006, z: -4.19}
 --- !u!33 &4398564541215979804
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -85127,7 +85128,7 @@ GameObject:
   - component: {fileID: 4398564541246918306}
   m_Layer: 0
   m_Name: drop (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85353,7 +85354,7 @@ GameObject:
   - component: {fileID: 4398564541248197629}
   m_Layer: 0
   m_Name: dropR (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85525,7 +85526,7 @@ GameObject:
   - component: {fileID: 4398564541259854276}
   m_Layer: 0
   m_Name: drop (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85690,7 +85691,7 @@ GameObject:
   - component: {fileID: 4398564541264418365}
   m_Layer: 0
   m_Name: dropR
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85930,7 +85931,7 @@ GameObject:
   - component: {fileID: 4398564541341972672}
   m_Layer: 0
   m_Name: dropR (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86040,7 +86041,7 @@ GameObject:
   - component: {fileID: 4398564541358299732}
   m_Layer: 0
   m_Name: drop (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86188,7 +86189,7 @@ GameObject:
   - component: {fileID: 4398564541360776394}
   m_Layer: 0
   m_Name: dropR (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86510,7 +86511,7 @@ GameObject:
   - component: {fileID: 4398564541392644978}
   m_Layer: 0
   m_Name: dropR (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86762,7 +86763,7 @@ GameObject:
   - component: {fileID: 4398564541400323030}
   m_Layer: 0
   m_Name: drop (7)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87085,7 +87086,7 @@ GameObject:
   - component: {fileID: 4398564541458963350}
   m_Layer: 0
   m_Name: dropR (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87310,7 +87311,7 @@ GameObject:
   - component: {fileID: 4398564541480239726}
   m_Layer: 0
   m_Name: dropR (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87420,7 +87421,7 @@ GameObject:
   - component: {fileID: 4398564541480388616}
   m_Layer: 0
   m_Name: drop (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87519,7 +87520,7 @@ GameObject:
   - component: {fileID: 4398564541494390406}
   m_Layer: 0
   m_Name: dropR (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88108,7 +88109,7 @@ GameObject:
   - component: {fileID: 4398564541536129392}
   m_Layer: 0
   m_Name: drop
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88551,7 +88552,7 @@ GameObject:
   - component: {fileID: 4398564541582702725}
   m_Layer: 0
   m_Name: drop (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88793,7 +88794,7 @@ GameObject:
   - component: {fileID: 4398564541596194578}
   m_Layer: 0
   m_Name: drop (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89206,7 +89207,7 @@ GameObject:
   - component: {fileID: 4398564541647772496}
   m_Layer: 0
   m_Name: drop (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89264,7 +89265,7 @@ GameObject:
   - component: {fileID: 4398564541649388178}
   m_Layer: 0
   m_Name: dropR (7)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89441,7 +89442,7 @@ GameObject:
   - component: {fileID: 4398564541659851962}
   m_Layer: 0
   m_Name: drop (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89736,7 +89737,7 @@ GameObject:
   - component: {fileID: 4398564541709918642}
   m_Layer: 0
   m_Name: drop (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90024,7 +90025,7 @@ GameObject:
   - component: {fileID: 4398564541711063606}
   m_Layer: 0
   m_Name: dropR (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90346,7 +90347,7 @@ GameObject:
   - component: {fileID: 4398564541769508352}
   m_Layer: 0
   m_Name: dropR (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90572,7 +90573,7 @@ GameObject:
   - component: {fileID: 4398564541852199688}
   m_Layer: 0
   m_Name: dropR (3)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90779,7 +90780,7 @@ GameObject:
   - component: {fileID: 4398564541856570685}
   m_Layer: 0
   m_Name: drop (2)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90877,7 +90878,7 @@ GameObject:
   - component: {fileID: 4398564541881721030}
   m_Layer: 0
   m_Name: dropR (7)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91260,7 +91261,7 @@ GameObject:
   - component: {fileID: 4398564541990820557}
   m_Layer: 0
   m_Name: drop (4)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91467,7 +91468,7 @@ GameObject:
   - component: {fileID: 4398564542002253582}
   m_Layer: 0
   m_Name: drop
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91583,7 +91584,7 @@ GameObject:
   - component: {fileID: 4398564542007345581}
   m_Layer: 0
   m_Name: dropR (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91837,7 +91838,7 @@ GameObject:
   - component: {fileID: 4398564542015671296}
   m_Layer: 0
   m_Name: dropR (8)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91939,7 +91940,7 @@ GameObject:
   - component: {fileID: 4398564542031678984}
   m_Layer: 0
   m_Name: dropR (5)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92059,7 +92060,7 @@ GameObject:
   - component: {fileID: 4398564542038475050}
   m_Layer: 0
   m_Name: dropR (6)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92338,7 +92339,7 @@ GameObject:
   - component: {fileID: 4398564542063708798}
   m_Layer: 0
   m_Name: drop (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92587,7 +92588,7 @@ GameObject:
   - component: {fileID: 4398564542123290680}
   m_Layer: 0
   m_Name: dropR (1)
-  m_TagString: test
+  m_TagString: dropzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92667,7 +92668,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4398564542141156261}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.83, y: 0.998, z: -4.655}
+  m_LocalPosition: {x: -5.83, y: 0.998, z: -4.6162}
   m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
   m_Children: []
   m_Father: {fileID: 749902200749074771}
@@ -92686,8 +92687,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   positions:
-  - {x: -4.391, y: 1, z: -3.965}
-  - {x: -3.784, y: 1, z: -4.241}
+  - {x: -4.328, y: 1, z: -4.264}
+  - {x: -4.068, y: 1, z: -4.649}
 --- !u!33 &4398564542141156316
 MeshFilter:
   m_ObjectHideFlags: 0
