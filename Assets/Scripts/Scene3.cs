@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Scene3 : MonoBehaviour
 {
-    [SerializeField] private int card; //variable correspondant a l'id de la derniere carte select -> 0 rien et apres de 1 à 17
-    [SerializeField] private int star; //variable pareil que card pour les constellation
+    private int card; //variable correspondant a l'id de la derniere carte select -> 0 rien et apres de 1 à 17
+    private int star; //variable pareil que card pour les constellation
     private int selectedCard; //variable contenant l'id de la carte précedemment selected pour gerer l'affichage du bright sur la bonne carte
     private int selectedStar; //pareil que celle au dessus pour les constellations 
     private int finished; //compteur pour la verif de victoire en comptant les couples carte et constellation trouvés
-    [SerializeField] private GameObject[] tabNameBright; //tab des bright des cartes pour les SetActive quand selected
-    [SerializeField] private GameObject[] tabStarBright; //tab des bright des constellations
+    private GameObject[] tabNameBright; //tab des bright des cartes pour les SetActive quand selected
+    private GameObject[] tabStarBright; //tab des bright des constellations
     [SerializeField] private bool[] tabFinished = new bool[17]; //tab de bools avec un bool pour chaque couple verif si complété
     [SerializeField] private GameObject winpanel; //panel affichant la victoire
 
@@ -64,6 +64,9 @@ public class Scene3 : MonoBehaviour
         star = 0;
         selectedCard = 0;
         selectedStar = 0;
+
+        tabNameBright = GameObject.FindGameObjectsWithTag("S3_Card_Name");
+        tabStarBright = GameObject.FindGameObjectsWithTag("S3_Star_Name");
     }
 
     // Update is called once per frame
