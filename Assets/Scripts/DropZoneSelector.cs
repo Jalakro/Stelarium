@@ -46,7 +46,7 @@ public class DropZoneSelector : MonoBehaviour
             }
         }
 
-        //condition de victoire
+        //condition de complétion Constellation
         if (count_filled == length && count_n_filled == 0)
         {
             winpanel.SetActive(true);
@@ -57,7 +57,16 @@ public class DropZoneSelector : MonoBehaviour
             winpanel.SetActive(false);
             Complete[ID_Active] = false;
         }
-        print(Complete[0] + " et " + Complete[1] + " et " + Complete[2]);
+        int count = 0;
+
+        //Victoire
+        foreach (bool constellation in Complete)
+            if (constellation == true)
+                count ++;
+        if (count == Complete.Length)
+        {
+            GameObject.FindGameObjectsWithTag("Victory")[0].SetActive(true);
+        }
     }
 
     public void IncrementDropZoneActive()
