@@ -26,6 +26,7 @@ TagManager:
   - winscene1
   - S3_Card_Name
   - S3_Star_Name
+  - S3_Valid
   - Victory
   layers:
   - Default

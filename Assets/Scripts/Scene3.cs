@@ -11,6 +11,7 @@ public class Scene3 : MonoBehaviour
     private int finished; //compteur pour la verif de victoire en comptant les couples carte et constellation trouvés
     private GameObject[] tabNameBright; //tab des bright des cartes pour les SetActive quand selected
     private GameObject[] tabStarBright; //tab des bright des constellations
+    private GameObject[] tabValidate; // tab des bright dans le menu pour indiquer les constellations validées
     [SerializeField] private bool[] tabFinished = new bool[17]; //tab de bools avec un bool pour chaque couple verif si complété
     [SerializeField] private GameObject winpanel; //panel affichant la victoire
 
@@ -56,6 +57,17 @@ public class Scene3 : MonoBehaviour
         }       
     }
 
+    public void Validation(int id)
+    {
+        tabValidate[id].SetActive(true);
+    }
+
+    public void Error(int id_name, int id_star)
+    {
+        tabNameBright[id_name].SetActive(false);
+        tabStarBright[id_star].SetActive(false);
+    }
+
 
     // Start is called before the first frame update
     void Start()
@@ -65,8 +77,19 @@ public class Scene3 : MonoBehaviour
         selectedCard = 0;
         selectedStar = 0;
 
+        for(int i = 0; i < 17; i++)
+        {
+            tabFinished[i] = false;
+            tabNameBright[i].SetActive(false);
+            tabStarBright[i].SetActive(false);
+            tabValidate[i].SetActive(false);
+        }
+
         tabNameBright = GameObject.FindGameObjectsWithTag("S3_Card_Name");
         tabStarBright = GameObject.FindGameObjectsWithTag("S3_Star_Name");
+        tabValidate = GameObject.FindGameObjectsWithTag("S3_Valid"); 
+        //mettre dans le valid le bright de la constellation dans le menu ainsi que les infos sur la constellation a pomper
+        //dans la scene 2 -> setActive bright + bouton pour infos dessous
     }
 
     // Update is called once per frame
@@ -95,8 +118,7 @@ public class Scene3 : MonoBehaviour
         else
         {
             //TODO//affichage de l'erreur
-            //setActive(false) surbrillance carte
-            //setActive(false) surbrillance stars
+            Error(card,star);
             star =0;
             card = 0;
         }
