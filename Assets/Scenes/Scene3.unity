@@ -62965,6 +62965,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3812852705769754206, guid: b15ceebbd213483439eeccb3ac53fcf9,
+        type: 3}
+      propertyPath: m_Text
+      value: "\n\n<SIZE=70>Vous \xEAtes actuellement dans la sc\xE8ne 3 :\n\nPour
+        r\xE9ussir ce challenge, vous devez assembler en cliquant dessus une constellation
+        avec son nom indiqu\xE9 sur des cartes pos\xE9es sur la table.\nSi vous associer
+        la constellation avec le bon nom, la carte ainsi que la constellation resteront
+        illumin\xE9s et vous debloquerez des infos sur la constellation dans le menu
+        \xE0 cot\xE9 de la table.\n\nVous n'aurez plus qu'a retrouver tous les noms
+        de constellation pour remporter l'\xE9preuve ! \n\nAttention, certaines constellations
+        sont difficiles \xE0 trouver, n'h\xE9sitez pas \xE0 regarder autour de vous
+        pour trouver certains indices...</SIZE>"
+      objectReference: {fileID: 0}
     - target: {fileID: 3812852706542148490, guid: b15ceebbd213483439eeccb3ac53fcf9,
         type: 3}
       propertyPath: music_game
