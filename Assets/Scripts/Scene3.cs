@@ -96,6 +96,8 @@ public class Scene3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        print("card : " + card + ", selected : " + selectedCard);
+        print("star : " + star + ", selected : " + selectedStar);
         if(star == card)
         {
             tabFinished[card - 1] = true;
