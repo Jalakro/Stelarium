@@ -119,7 +119,7 @@ public class Scene3 : MonoBehaviour
         else
         {
             //TODO//affichage de l'erreur
-            Error(card,star);
+            //Error(card,star);
             star =0;
             card = 0;
         }
