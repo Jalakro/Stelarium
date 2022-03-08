@@ -33,7 +33,8 @@ public class Scene3 : MonoBehaviour
             tabNameBright[selectedCard - 1].SetActive(false);
             selectedCard = card;
             tabNameBright[card - 1].SetActive(true);
-        }       
+        }   
+        print("ALO ??");    
     }
 
     public void Stars(int id)
